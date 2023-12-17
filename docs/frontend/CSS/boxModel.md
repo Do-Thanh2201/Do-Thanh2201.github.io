@@ -4,7 +4,7 @@ Box model là 1 kỹ thuật layout cơ bản trong CSS với 4 thành phần:</
  - Border: Đường viền của phần tử. Đại diện bởi thuộc tính **border**</br >
  - Padding: Khoảng cách tính từ bên trong của phần tử. Đại diện bởi thuộc tính **padding**</br >
  - Content: Nội dung trong phần tử. Do đó, không có thuộc tính CSS nào đại diện</br >
- ![Box Model](/assets/image/CSS/box-model.png)
+ ![Box Model](https://media.geeksforgeeks.org/wp-content/uploads/box-model-1.png)
 # 2. Box sizing
 **box-sizing** là một thuộc tính sẽ giúp bạn có thể tính toán và làm chủ được kích thước của một phần tử dựa vào thuộc tính **width** và **height** đã được thiết lập bên trong. Hay nói cách khác, là bạn sẽ muốn thuộc tính **width** và **height** là kích thước đã bao gồm border và padding.</br >
 
