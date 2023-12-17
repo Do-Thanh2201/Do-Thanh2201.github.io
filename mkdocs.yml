@@ -18,7 +18,7 @@ nav:
     - 'CSS':
       - "Box Model": 'frontend/CSS/boxModel.md'
       - "Box Position": 'frontend/CSS/boxPosition.md'
-      - "Fexbox": 'frontend/CSS/flexbox.md'
+      - "Flexbox": 'frontend/CSS/flexbox.md'
       - "Grid": 'frontend/CSS/grid.md'
       - "Others": 'frontend/CSS/others.md'
     - 'JavaScript':
