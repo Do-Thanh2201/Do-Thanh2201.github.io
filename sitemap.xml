@@ -16,7 +16,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://do-thanh2201.github.io/frontend/CSS/</loc>
+         <loc>https://do-thanh2201.github.io/frontend/CSS/boxModel/</loc>
+         <lastmod>2023-12-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/CSS/boxPosition/</loc>
+         <lastmod>2023-12-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/CSS/flexbox/</loc>
+         <lastmod>2023-12-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/CSS/flow/</loc>
+         <lastmod>2023-12-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/CSS/grid/</loc>
+         <lastmod>2023-12-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/CSS/others/</loc>
          <lastmod>2023-12-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
