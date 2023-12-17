@@ -13,7 +13,8 @@ Tài liệu này sử dụng [mkdocs](https://www.mkdocs.org/) để tự độn
 - git add <files>
 - git commit -m "Message"
 - git push
-- mkdocs gh-deploy --remote-branch main --config-file mkdocs.yml --site-dir build
+- Build file ở local
+- mkdocs gh-deploy --remote-branch buildPage --config-file mkdocs.yml --site-dir build
 (Tạo ra 1 branch build từ nhánh main, đồng thời ở github page, setting deploy từ nhánh build)
 ## Tham khảo tài liệu
 [Command Line Interface](https://www.mkdocs.org/user-guide/cli/)
