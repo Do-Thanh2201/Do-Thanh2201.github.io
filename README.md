@@ -8,7 +8,7 @@ Tài liệu này sử dụng mkdocs để tự động generate static HTML page
 - mkdocs build --config-file mkdocs.yml --site-dir build
 - mkdocs serve --config-file mkdocs.yml
 ## Hướng dẫn chạy trên git repo
-- 
+- echo build/ > .gitignore
 - git status
 - git add <files>
 - git commit -m "Message"
