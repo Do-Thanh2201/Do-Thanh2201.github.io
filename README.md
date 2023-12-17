@@ -5,7 +5,7 @@ Tài liệu này sử dụng [mkdocs](https://www.mkdocs.org/) để tự độn
 - Install mkdocs ở local: pip install mkdocs
 - Create new docs source project: tại thư mục muốn tạo, chạy cmd: mkdocs new GITHUB_PROJECT
 ## Hướng dẫn chạy local
-- mkdocs build --config-file mkdocs.yml --site-dir build
+- mkdocs build --config-file mkdocs.yml --site-dir build/state
 - mkdocs serve --config-file mkdocs.yml
 ## Hướng dẫn chạy trên git repo
 - echo build/ > .gitignore
@@ -14,7 +14,7 @@ Tài liệu này sử dụng [mkdocs](https://www.mkdocs.org/) để tự độn
 - git commit -m "Message"
 - git push
 - Build file ở local
-- mkdocs gh-deploy --remote-branch buildPage --config-file mkdocs.yml --site-dir build
+- mkdocs gh-deploy --remote-branch buildPage --config-file mkdocs.yml --site-dir build/state
 (Tạo ra 1 branch buildPage từ nhánh main, copy file trong thư mục build ở local push lên branch buildPage đồng thời ở github page, setting deploy từ nhánh buildPage)
 ## Tham khảo tài liệu
 [Command Line Interface](https://www.mkdocs.org/user-guide/cli/)
