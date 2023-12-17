@@ -1,3 +1,15 @@
 theme: jekyll-theme-minimal
-title: Home page tài liệu tổng hợp của Đỗ Thành
-description: Bookmark this to keep an eye on my project updates!
+title: Homepage
+description: Tài liệu tổng hợp của Đỗ Thành
+nav:
+  - Home: 'index.md'
+  - 'Back-end':
+    - 'Java':
+      - Home: 'index.md'
+    - 'Springboot and Micro Services':
+      - Home: 'index.md'
+  - 'Front-end':
+    - 'CSS':
+      - Home: 'index.md'
+    - 'JavaScript':
+      - Home: 'index.md'
