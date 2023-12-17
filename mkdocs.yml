@@ -11,11 +11,11 @@ nav:
   - Home: 'index.md'
   - 'Back-end':
     - 'Java':
-      - Home: 'docs/backend/Java/index.md'
+      - Home: 'backend/Java/index.md'
     - 'Springboot and Micro Services':
-      - Home: 'docs/backend/Springboot and MicroServices/index.md'
+      - Home: 'backend/Springboot and MicroServices/index.md'
   - 'Front-end':
     - 'CSS':
-      - Home: 'docs/frontend/CSS/index.md'
+      - Home: 'frontend/CSS/index.md'
     - 'JavaScript':
-      - Home: 'docs/frontend/JavaScript/index.md'
+      - Home: 'frontend/JavaScript/index.md'
