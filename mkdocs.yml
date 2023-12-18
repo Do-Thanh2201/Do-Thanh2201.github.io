@@ -1,5 +1,5 @@
 theme:
-  name: readthedocs
+  name: mkdocs
   highlightjs: true
   hljs_languages:
     - yaml
