@@ -167,6 +167,18 @@
             
             <li class="nav-item" data-level="1"><a href="#6-inline-vertical-align-line-height" class="nav-link">6 Inline, Vertical Align, Line-Height</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#vertical-alignment" class="nav-link">vertical alignment</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#horizontal-direction" class="nav-link">horizontal direction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#line-height" class="nav-link">Line-Height</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
             
@@ -210,13 +222,22 @@ Trong 1 <strong>inline formatting context</strong>, các box model được sắ
  - float: right;
  - float: inline-start;
  - float: inline-end;</p>
+<blockquote>
 <p>Lưu ý: Sử dụng float có thể gây ra 1 vài kết quả không mong muốn: Box dùng float vượt ra ngoài container của <strong>containing block</strong>.</p>
+</blockquote>
 <h1 id="6-inline-vertical-align-line-height">6 Inline, Vertical Align, Line-Height</h1>
+<h2 id="vertical-alignment">vertical alignment</h2>
 <p><strong>line box</strong> luôn có chiều cao đủ để chứa tất cả các boxes ở bên trong. Tuy nhiên, ta có thể set chiều cao cho nó cao hơn chiều cao của các phần tử bên trong nó. Khi chiều cao của 1 box B nhỏ hơn chiều cao của <strong>line box</strong> chứa nó, sắp xếp phần tử B theo chiều dọc (vertical alignment) của B bên trong <strong>line box</strong> được xác định bởi thuộc tính <strong>"vertical-align"</strong> (baseline/top/middle/bottom/sub/text-top).</p>
+<blockquote>
 <p>Property <strong>"vertical-align"</strong> sets <strong>vertical alignment</strong> of an inline, inline-block or table-cell box.</p>
+</blockquote>
+<h2 id="horizontal-direction">horizontal direction</h2>
 <p>Khi tổng chiều rộng của tất cả các inline-level boxes nhỏ hơn chiều rộng của <em>line box</em> chứa nó, vị trí theo chiều ngang (horizontal alignment) của các boxes bên trong <strong>line box</strong> được xác định bởi thuộc tính <em>"text-align"</em> (start/end/center/justify).
 The <strong>"text-align"</strong> CSS property sets the <strong>horizontal alignment</strong> of the inline-level content inside a block element or table-cell box. This means it works like vertical-align but in the <strong>horizontal direction</strong>.</p>
+<blockquote>
 <p>Thuộc tính CSS <em>line-height</em> xác định chiều cao của <strong>line box</strong>. Nó thường được sử dụng để đặt khoảng cách giữa các dòng văn bản. Trên <strong>block-level elements</strong>, nó xác định chiều cao tối thiểu của các <strong>line box</strong> trong phần tử. Trên các phần tử inline không được thay thế, nó xác định chiều cao được sử dụng để tính toán chiều cao của <strong>line box</strong>.</p>
+</blockquote>
+<h2 id="line-height">Line-Height</h2>
 <p>Một phần tử inline có 2 chiều cao khác nhau:
  - chiều cao content-area được định nghĩa bởi các chỉ số của font (font-size, font-family).
  - chiều cao line-height, là chiều cao được dùng để tính toán chiều cao của line-box.</p>
