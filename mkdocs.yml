@@ -16,7 +16,7 @@ nav:
       - Mở đầu: 'backend/Springboot and MicroServices/index.md'
   - 'Front-end':
     - 'CSS':
-      - "Selectors": 'frontend/CSS/1 Selectors.md'
+      - "Selectors": 'frontend/CSS/1 selectors.md'
       - "Cascading and Inheritance": 'frontend/CSS/2 Cascading and Inheritance.md'
       - "Box Model": 'frontend/CSS/3 boxModel.md'
       - "Box Position": 'frontend/CSS/4 boxPosition.md'
