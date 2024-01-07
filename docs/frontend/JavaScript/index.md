@@ -7,9 +7,9 @@ Variable scopes: Block, Function, global<br>
 ## 2 Datatypes
 Primitive data types in JavaScript (Number, BigInt, String, Boolean, Null, Undefined and Symbol)</br >
 Non-Primitive data types: Object</br >
- - Object Prototypes (Intermediate)
- - Prototypal Inheritance (Intermediate)
- - Built-in objects
+ - Object Prototypes (Intermediate)</br >
+ - Prototypal Inheritance (Intermediate)</br >
+ - Built-in objects</br >
 Xác định kiểu dữ liệu của biến với **TypeOf Operator**
 ## 3 Type Casting
 Explicit Type Casting</br >
@@ -18,13 +18,13 @@ Type Conversion/Coercion</br >
 ## 4 Data Structures
 Structured data: Json</br >
 Keyed Collections: (Intermediate)</br >
-- Map
-- Weak Map
-- Set
-- Weak Set
+- Map</br >
+- Weak Map</br >
+- Set</br >
+- Weak Set</br >
 Indexed collections:</br >
- - Array
- - Typed Arrays (Advanced)
+ - Array</br >
+ - Typed Arrays (Advanced)</br >
 
 ## 5 Equality Comparisons
 Value Comparison Operators: ==, ===, Object.is()</br >
