@@ -11,16 +11,18 @@ nav:
   - Home: 'index.md'
   - 'Back-end':
     - 'Java':
-      - Home: 'backend/Java/index.md'
+      - Mở đầu: 'backend/Java/index.md'
     - 'Springboot and Micro Services':
-      - Home: 'backend/Springboot and MicroServices/index.md'
+      - Mở đầu: 'backend/Springboot and MicroServices/index.md'
   - 'Front-end':
     - 'CSS':
-      - "Box Model": 'frontend/CSS/boxModel.md'
-      - "Box Position": 'frontend/CSS/boxPosition.md'
-      - "FLow": 'frontend/CSS/flow.md'
-      - "Flexbox": 'frontend/CSS/flexbox.md'
-      - "Grid": 'frontend/CSS/grid.md'
+      - "Selectors": 'frontend/CSS/1 Selectors.md'
+      - "Cascading and Inheritance": 'frontend/CSS/2 Cascading and Inheritance.md'
+      - "Box Model": 'frontend/CSS/3 boxModel.md'
+      - "Box Position": 'frontend/CSS/4 boxPosition.md'
+      - "FLow": 'frontend/CSS/5 flow.md'
+      - "Flexbox": 'frontend/CSS/6 flexbox.md'
+      - "Grid": 'frontend/CSS/7 grid.md'
       - "Others": 'frontend/CSS/others.md'
     - 'JavaScript':
-      - Home: 'frontend/JavaScript/index.md'
+      - Mở đầu: 'frontend/JavaScript/index.md'
