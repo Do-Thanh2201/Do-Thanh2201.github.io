@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Đỗ Thành">
-        <link rel="canonical" href="https://do-thanh2201.github.io/frontend/CSS/grid/">
+        <link rel="canonical" href="https://do-thanh2201.github.io/frontend/CSS/1%20selectors/">
         <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>Grid - Homepage</title>
+        <title>Selectors - Homepage</title>
         <link href="../../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../../css/base.css" rel="stylesheet">
@@ -43,7 +43,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../../backend/Java/" class="dropdown-item">Home</a>
+    <a href="../../../backend/Java/" class="dropdown-item">Mở đầu</a>
 </li>
     </ul>
   </li>
@@ -53,13 +53,13 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../../backend/Springboot%20and%20MicroServices/" class="dropdown-item">Home</a>
+    <a href="../../../backend/Springboot%20and%20MicroServices/" class="dropdown-item">Mở đầu</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Front-end <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -68,23 +68,31 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../boxModel/" class="dropdown-item">Box Model</a>
+    <a href="../1 Selectors.md" class="dropdown-item">Selectors</a>
 </li>
             
 <li>
-    <a href="../boxPosition/" class="dropdown-item">Box Position</a>
+    <a href="../2%20Cascading%20and%20Inheritance/" class="dropdown-item">Cascading and Inheritance</a>
 </li>
             
 <li>
-    <a href="../flow/" class="dropdown-item">FLow</a>
+    <a href="../3%20boxModel/" class="dropdown-item">Box Model</a>
 </li>
             
 <li>
-    <a href="../flexbox/" class="dropdown-item">Flexbox</a>
+    <a href="../4%20boxPosition/" class="dropdown-item">Box Position</a>
 </li>
             
 <li>
-    <a href="./" class="dropdown-item active">Grid</a>
+    <a href="../5%20flow/" class="dropdown-item">FLow</a>
+</li>
+            
+<li>
+    <a href="../6%20flexbox/" class="dropdown-item">Flexbox</a>
+</li>
+            
+<li>
+    <a href="../7%20grid/" class="dropdown-item">Grid</a>
 </li>
             
 <li>
@@ -98,7 +106,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../JavaScript/" class="dropdown-item">Home</a>
+    <a href="../../JavaScript/" class="dropdown-item">Mở đầu</a>
 </li>
     </ul>
   </li>
@@ -112,16 +120,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../flexbox/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../others/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -140,12 +138,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#grid" class="nav-link">grid</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#keyword-tai-lieu-tham-khao" class="nav-link">Keyword, Tài liệu tham khảo</a>
+            <li class="nav-item" data-level="1"><a href="#selectors" class="nav-link">Selectors</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -154,8 +147,30 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="grid">grid</h1>
-<h1 id="keyword-tai-lieu-tham-khao">Keyword, Tài liệu tham khảo</h1></div>
+<h1 id="selectors">Selectors</h1>
+<ul>
+<li>
+<p>element, .class-name, #id, element.className</p>
+</li>
+<li>
+<p>[aria-hidden="true"] (selects elements with aria-hidden attribute with value true),</p>
+</li>
+<li>
+<p>div.row * (all child elements of div of class row)</p>
+</li>
+<li>
+<p>li &gt; a (Only direct descendants, not all)</p>
+</li>
+<li>
+<p>li + a (Only the first a after each li)</p>
+</li>
+<li>
+<p>li, a (All a elements and all li elements)</p>
+</li>
+<li>
+<p>li ~ a (a element following a li element)</p>
+</li>
+</ul></div>
             </div>
         </div>
 
