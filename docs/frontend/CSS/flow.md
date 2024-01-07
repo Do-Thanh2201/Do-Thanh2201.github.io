@@ -38,21 +38,19 @@ Thuộc tính này là 1 phần của normal flow, **tác động đến các bo
  - float: inline-start;
  - float: inline-end;
 
-Lưu ý: Sử dụng float có thể gây ra 1 vài kết quả không mong muốn: Box dùng float vượt ra ngoài container của **containing block**.
+> Lưu ý: Sử dụng float có thể gây ra 1 vài kết quả không mong muốn: Box dùng float vượt ra ngoài container của **containing block**.
 
 # 6 Inline, Vertical Align, Line-Height
-
+## vertical alignment
 **line box** luôn có chiều cao đủ để chứa tất cả các boxes ở bên trong. Tuy nhiên, ta có thể set chiều cao cho nó cao hơn chiều cao của các phần tử bên trong nó. Khi chiều cao của 1 box B nhỏ hơn chiều cao của **line box** chứa nó, sắp xếp phần tử B theo chiều dọc (vertical alignment) của B bên trong **line box** được xác định bởi thuộc tính **"vertical-align"** (baseline/top/middle/bottom/sub/text-top).
+> Property **"vertical-align"** sets **vertical alignment** of an inline, inline-block or table-cell box.
 
-Property **"vertical-align"** sets **vertical alignment** of an inline, inline-block or table-cell box.
-
-
+## horizontal direction
 Khi tổng chiều rộng của tất cả các inline-level boxes nhỏ hơn chiều rộng của *line box* chứa nó, vị trí theo chiều ngang (horizontal alignment) của các boxes bên trong **line box** được xác định bởi thuộc tính *"text-align"* (start/end/center/justify).
 The **"text-align"** CSS property sets the **horizontal alignment** of the inline-level content inside a block element or table-cell box. This means it works like vertical-align but in the **horizontal direction**.
+> Thuộc tính CSS *line-height* xác định chiều cao của **line box**. Nó thường được sử dụng để đặt khoảng cách giữa các dòng văn bản. Trên **block-level elements**, nó xác định chiều cao tối thiểu của các **line box** trong phần tử. Trên các phần tử inline không được thay thế, nó xác định chiều cao được sử dụng để tính toán chiều cao của **line box**.
 
-
-Thuộc tính CSS *line-height* xác định chiều cao của **line box**. Nó thường được sử dụng để đặt khoảng cách giữa các dòng văn bản. Trên **block-level elements**, nó xác định chiều cao tối thiểu của các **line box** trong phần tử. Trên các phần tử inline không được thay thế, nó xác định chiều cao được sử dụng để tính toán chiều cao của **line box**.
-
+## Line-Height
 Một phần tử inline có 2 chiều cao khác nhau:
  - chiều cao content-area được định nghĩa bởi các chỉ số của font (font-size, font-family).
  - chiều cao line-height, là chiều cao được dùng để tính toán chiều cao của line-box.
