@@ -2,7 +2,6 @@
 ## 1 Variable
 Variable Declaration: var, let, const</br >
 Hoisting<br>
-Variable naming rules<br>
 Variable scopes: Block, Function, global<br>
 ## 2 Datatypes
 Primitive data types in JavaScript (Number, BigInt, String, Boolean, Null, Undefined and Symbol)</br >
@@ -76,7 +75,7 @@ Promises: Async/Await</br >
 ## 13 Working with APIs
 XMLHttpRequest</br >
 Fetch</br >
-## 14 Classes
+## 14 Classes - OOP
 ## 15 Javascript Iterators and Generators (Advance)
 ## 16 Modules
 CommonJS</br >

@@ -26,3 +26,4 @@ nav:
       - "Others": 'frontend/CSS/others.md'
     - 'JavaScript':
       - Mở đầu: 'frontend/JavaScript/index.md'
+      - 'Variable': 'frontend/JavaScript/1 Variable.md'
