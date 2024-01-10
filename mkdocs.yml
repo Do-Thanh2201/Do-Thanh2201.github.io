@@ -27,3 +27,4 @@ nav:
     - 'JavaScript':
       - Mở đầu: 'frontend/JavaScript/index.md'
       - 'Variable': 'frontend/JavaScript/1 Variable.md'
+      - 'Datatypes': 'frontend/JavaScript/2 Datatypes.md'

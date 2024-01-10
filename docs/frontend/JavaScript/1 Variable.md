@@ -1,10 +1,17 @@
-# Variable Declaration
+# 1. Variable Declaration
 
-## var
+## 1.1 var
 
-Dùng để khai báo với 1 biến thuộc **function-scoped** or **globally-scoped** variables.
+Dùng để khai báo với 1 biến thuộc **function-scoped** or **globally-scoped** variables.</br >
+Biến khai báo với **var** có thể được khai báo lại.
 
 ```js
+/*==============================*/
+var var1 = 23;
+console.log(var1); // Output: 23
+var var1 = "thanh";
+console.log(var1); // Output: thanh
+/*==============================*/
 function hoist() {
   a = 20;
   var b = 100;
@@ -26,9 +33,10 @@ Output: ReferenceError: b is not defined
 */
 ```
 
-## let
+## 1.2 let
 
-Dùng để khai báo các biến cục bộ, thuộc **block-scoped** local variables, cho phép thay đổi giá trị của biến.
+Dùng để khai báo các biến cục bộ, thuộc **block-scoped** local variables.
+Biến khai báo với **let** không thể được khai báo lại, nhưng cho phép thay đổi giá trị của biến.
 
 ```js
 let greeting = "say Hi";
@@ -41,7 +49,7 @@ let greeting2 = "say Hi";
 let greeting2 = "say Hello instead"; // error: Identifier 'greeting' has already been declared
 ```
 
-## const
+## 1.3 const
 
 Dùng để khai báo các biến cục bộ, thuộc **block-scoped** local variables.</br >
 Trong biến **const** nếu trường hợp kiểu của biến là **primitive** (bao gồm string, number, boolean, null, và undefined) thì chúng ta sẽ không thể tái khai báo hay cập nhật giá trị mới để thay thế cho giá trị trước đó của biến.</br >
@@ -54,11 +62,11 @@ const greeting2 = "say Hi";
 const greeting2 = "say Hello instead"; // error : Identifier 'greeting' has already been declared
 ```
 
-# Hoisting
+# 2. Hoisting
 
 Tức là quá trình **trình thông dịch interpreter** di chuyển phần khai báo hàm, biến, class **lên đầu phạm vi của chúng** trước khi được thực hiện (Sử dụng trước khi khai báo).</br >
 
-## Hoisting variable
+## 2.1 Hoisting variable
 
 Chỉ biến khai báo bằng **var** mới có tính chất này.
 
@@ -87,7 +95,7 @@ console.log(hoistConst); // Output: ReferenceError: hoistConst is not defined
 const hoistConst = "The variable has been hoistConst.";
 ```
 
-## Hoisting functions
+## 2.2 Hoisting functions
 
 Chỉ **Function declaration** mới được Hoisting
 
@@ -114,13 +122,13 @@ var expression2 = function () {
 };
 ```
 
-## Hoisting classes
+## 2.3 Hoisting classes
 
-Chỉ **Class declarations** mới được Hoisting
+Trong ES6, class không được Hoisting.
 
-# Variable scopes
+# 3. Variable scopes
 
-## Block Level Scope
+## 3.1 Block Level Scope
 Biến được khai báo **bên trong bất kỳ block nào**, chẳng hạn như bên trong body của 1 function, hoặc câu lệnh **if/switch conditions or for/while loops** thì có Block Level Scope</br >
 Tức là các biến chỉ được truy cập từ bên trong Block
 
@@ -135,7 +143,7 @@ console.log(p); // Uncaught ReferenceError: p is not defined
 console.log(q); // Uncaught ReferenceError: q is not defined
 ```
 
-## Function Level Scope
+## 3.2 Function Level Scope
 Biến được khai báo **trong 1 functio**n thì có Function Level Scope</br >
 Tức là các biến chỉ được truy cập từ bên trong function
 
@@ -151,5 +159,5 @@ printIfGFG("GFG");
 console.log(message); // Output: "ReferenceError: message is not defined"
 ```
 
-## Global Level Scope
+## 3.3 Global Level Scope
 Biến được khai báo ở Globally, tức là không khai báo bên trong bất kỳ function nào thì có **Global Scope**
