@@ -141,3 +141,18 @@ Built-in objects, or “global objects” dùng để chỉ những Object đã 
 - Error
 - Function
 - Boolean
+# 3. Xác định kiểu dữ liệu của biến với TypeOf Operator
+Toán tử **typeof** trả về 1 string là kiểu dữ liệu của biến
+```js
+console.log(typeof 42);
+// Expected output: "number"
+
+console.log(typeof 'blubber');
+// Expected output: "string"
+
+console.log(typeof true);
+// Expected output: "boolean"
+
+console.log(typeof undeclaredVariable);
+// Expected output: "undefined"
+```
