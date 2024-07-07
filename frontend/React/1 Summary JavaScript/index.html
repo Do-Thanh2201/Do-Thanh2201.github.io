@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Đỗ Thành">
-        <link rel="canonical" href="https://do-thanh2201.github.io/frontend/CSS/3%20boxModel/">
+        <link rel="canonical" href="https://do-thanh2201.github.io/frontend/React/1%20Summary%20JavaScript/">
         <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>Box Model - Homepage</title>
+        <title>Ôn tập JavaScript - Homepage</title>
         <link href="../../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../../css/brands.min.css" rel="stylesheet">
@@ -72,35 +72,35 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../1%20selectors/" class="dropdown-item">Selectors</a>
+    <a href="../../CSS/1%20selectors/" class="dropdown-item">Selectors</a>
 </li>
             
 <li>
-    <a href="../2%20Cascading%20and%20Inheritance/" class="dropdown-item">Cascading and Inheritance</a>
+    <a href="../../CSS/2%20Cascading%20and%20Inheritance/" class="dropdown-item">Cascading and Inheritance</a>
 </li>
             
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">Box Model</a>
+    <a href="../../CSS/3%20boxModel/" class="dropdown-item">Box Model</a>
 </li>
             
 <li>
-    <a href="../4%20boxPosition/" class="dropdown-item">Box Position</a>
+    <a href="../../CSS/4%20boxPosition/" class="dropdown-item">Box Position</a>
 </li>
             
 <li>
-    <a href="../5%20flow/" class="dropdown-item">FLow</a>
+    <a href="../../CSS/5%20flow/" class="dropdown-item">FLow</a>
 </li>
             
 <li>
-    <a href="../6%20flexbox/" class="dropdown-item">Flexbox</a>
+    <a href="../../CSS/6%20flexbox/" class="dropdown-item">Flexbox</a>
 </li>
             
 <li>
-    <a href="../7%20grid/" class="dropdown-item">Grid</a>
+    <a href="../../CSS/7%20grid/" class="dropdown-item">Grid</a>
 </li>
             
 <li>
-    <a href="../others/" class="dropdown-item">Others</a>
+    <a href="../../CSS/others/" class="dropdown-item">Others</a>
 </li>
     </ul>
   </li>
@@ -132,19 +132,19 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../React/1%20Summary%20JavaScript/" class="dropdown-item">Ôn tập JavaScript</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Ôn tập JavaScript</a>
 </li>
             
 <li>
-    <a href="../../React/2%20React/" class="dropdown-item">React</a>
+    <a href="../2%20React/" class="dropdown-item">React</a>
 </li>
             
 <li>
-    <a href="../../React/3%20React%20router/" class="dropdown-item">React-router</a>
+    <a href="../3%20React%20router/" class="dropdown-item">React-router</a>
 </li>
             
 <li>
-    <a href="../../React/4%20Context%20API/" class="dropdown-item">Context API</a>
+    <a href="../4%20Context%20API/" class="dropdown-item">Context API</a>
 </li>
     </ul>
   </li>
@@ -159,12 +159,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../2%20Cascading%20and%20Inheritance/" class="nav-link">
+                                <a rel="prev" href="../../JavaScript/2%20Datatypes/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../4%20boxPosition/" class="nav-link">
+                                <a rel="next" href="../2%20React/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -186,18 +186,44 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#1-box-model" class="nav-link">1 Box model</a>
+            <li class="nav-item" data-bs-level="1"><a href="#1-cac-kien-thuc-key-word-su-dung" class="nav-link">1. Các kiến thức / key word sử dụng</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#array-slice-copy-array" class="nav-link">Array slice(): Copy array.</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#2-box-sizing" class="nav-link">2 Box sizing</a>
+            <li class="nav-item" data-bs-level="2"><a href="#array-reduce-thuc-hien-1-function-len-moi-phan-tu-cua-array-goc-va-tra-ve-1-gia-tri-tinh-toan-mong-muon" class="nav-link">Array reduce(): Thực hiện 1 function lên mỗi phần tử của array gốc và trả về 1 giá trị tính toán mong muốn.</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#3-keyword-tai-lieu-tham-khao" class="nav-link">3 Keyword, Tài liệu tham khảo</a>
+            <li class="nav-item" data-bs-level="2"><a href="#array-filter" class="nav-link">Array filter()</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#array-includes" class="nav-link">Array includes()</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#array-map" class="nav-link">Array map()</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#default-export-export-default-co-1-default-export-export-default-tren-1-file" class="nav-link">Default Export (export default): Có 1 Default Export (export default) trên 1 file.</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#name-export-export-co-multiple-named-exports-tren-1-file" class="nav-link">Name Export (export): Có multiple named exports trên 1 file</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#destructuring-objectarray" class="nav-link">Destructuring object/array</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#spread-rest-template" class="nav-link">Spread, rest template</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -205,22 +231,18 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="1-box-model">1 Box model</h1>
-<p>Box model là 1 kỹ thuật layout cơ bản trong CSS với 4 thành phần:</br >
- - Margin: Khoảng cách tính từ bên ngoài của phần tử. Đại diện bởi thuộc tính <strong>margin</strong></br >
- - Border: Đường viền của phần tử. Đại diện bởi thuộc tính <strong>border</strong></br >
- - Padding: Khoảng cách tính từ bên trong của phần tử. Đại diện bởi thuộc tính <strong>padding</strong></br >
- - Content: Nội dung trong phần tử. Do đó, không có thuộc tính CSS nào đại diện</br >
- <img alt="Box Model" src="https://media.geeksforgeeks.org/wp-content/uploads/box-model-1.png" /></p>
-<h1 id="2-box-sizing">2 Box sizing</h1>
-<p><strong>box-sizing</strong> là một thuộc tính sẽ giúp bạn có thể tính toán và làm chủ được kích thước của một phần tử dựa vào thuộc tính <strong>width</strong> và <strong>height</strong> đã được thiết lập bên trong. Hay nói cách khác, là bạn sẽ muốn thuộc tính <strong>width</strong> và <strong>height</strong> là kích thước đã bao gồm border và padding.</br ></p>
-<p>Hiện tại, <strong>box-sizing</strong> có hỗ trợ một số giá trị như sau:</br >
- - <strong>content-box</strong>: Giá trị mặc định, nghĩa là giá trị width và height chỉ áp dụng cho khu vực nội dung bên trong, không bao gồm padding, border và margin.</br >
- - <strong>border-box</strong>: Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin.</br >
- (Nên sử dụng thuộc tính này cho toàn bộ các phần tử giúp cho các phần tử có kích thước như chúng ta đã khai báo)</br >
- - <strong>padding-box</strong>: Với giá trị này thì width và height chỉ bao gồm cho phần nội dung và padding, không bao gồm border và margin.</br >
- (<strong>padding-box</strong> chỉ có tác dụng với trình duyệt <strong>Firefox</strong>.)</p>
-<h1 id="3-keyword-tai-lieu-tham-khao">3 Keyword, Tài liệu tham khảo</h1></div>
+<h1 id="1-cac-kien-thuc-key-word-su-dung">1. Các kiến thức / key word sử dụng</h1>
+<h2 id="array-slice-copy-array">Array slice(): Copy array.</h2>
+<h2 id="array-reduce-thuc-hien-1-function-len-moi-phan-tu-cua-array-goc-va-tra-ve-1-gia-tri-tinh-toan-mong-muon">Array reduce(): Thực hiện 1 function lên mỗi phần tử của array gốc và trả về 1 giá trị tính toán mong muốn.</h2>
+<h2 id="array-filter">Array filter()</h2>
+<h2 id="array-includes">Array includes()</h2>
+<h2 id="array-map">Array map()</h2>
+<h2 id="default-export-export-default-co-1-default-export-export-default-tren-1-file">Default Export (export default): Có 1 Default Export (export default) trên 1 file.</h2>
+<p>Khi import có thể dùng bất kỳ tên nào để import</p>
+<h2 id="name-export-export-co-multiple-named-exports-tren-1-file">Name Export (export): Có multiple named exports trên 1 file</h2>
+<p>Khi import phải dùng chính xác tên. Nếu muốn đổi tên thì phải dùng "as".</p>
+<h2 id="destructuring-objectarray">Destructuring object/array</h2>
+<h2 id="spread-rest-template">Spread, rest template</h2></div>
             </div>
         </div>
 

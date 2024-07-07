@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,13 @@
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Mở đầu - Homepage</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
         <script>hljs.highlightAll();</script> 
@@ -23,7 +27,7 @@
             <div class="container">
                 <a class="navbar-brand" href="../..">Homepage</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -31,11 +35,11 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../.." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Back-end <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Back-end</a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
@@ -59,8 +63,8 @@
   </li>
                                 </ul>
                             </li>
-                            <li class="dropdown active">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Front-end <b class="caret"></b></a>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Front-end</a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
@@ -106,7 +110,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="./" class="dropdown-item active">Mở đầu</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Mở đầu</a>
 </li>
             
 <li>
@@ -116,15 +120,41 @@
 <li>
     <a href="2%20Datatypes/" class="dropdown-item">Datatypes</a>
 </li>
+            
+<li>
+    <a href="3 Type Casting.md" class="dropdown-item">Type Casting</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">React</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../React/1%20Summary%20JavaScript/" class="dropdown-item">Ôn tập JavaScript</a>
+</li>
+            
+<li>
+    <a href="../React/2%20React/" class="dropdown-item">React</a>
+</li>
+            
+<li>
+    <a href="../React/3%20React%20router/" class="dropdown-item">React-router</a>
+</li>
+            
+<li>
+    <a href="../React/4%20Context%20API/" class="dropdown-item">Context API</a>
+</li>
     </ul>
   </li>
                                 </ul>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -145,91 +175,91 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#cac-chu-e-can-tim-hieu" class="nav-link">Các chủ đề cần tìm hiểu</a>
+            <li class="nav-item" data-bs-level="1"><a href="#cac-chu-e-can-tim-hieu" class="nav-link">Các chủ đề cần tìm hiểu</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#1-variable" class="nav-link">1 Variable</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#2-datatypes" class="nav-link">2 Datatypes</a>
+            <li class="nav-item" data-bs-level="2"><a href="#1-variable" class="nav-link">1 Variable</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#3-type-casting" class="nav-link">3 Type Casting</a>
+            <li class="nav-item" data-bs-level="2"><a href="#2-datatypes" class="nav-link">2 Datatypes</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#4-data-structures" class="nav-link">4 Data Structures</a>
+            <li class="nav-item" data-bs-level="2"><a href="#3-type-casting" class="nav-link">3 Type Casting</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#5-equality-comparisons" class="nav-link">5 Equality Comparisons</a>
+            <li class="nav-item" data-bs-level="2"><a href="#4-data-structures" class="nav-link">4 Data Structures</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#6-loops-and-iterations" class="nav-link">6 Loops and Iterations</a>
+            <li class="nav-item" data-bs-level="2"><a href="#5-equality-comparisons" class="nav-link">5 Equality Comparisons</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#7-control-flow" class="nav-link">7 Control Flow</a>
+            <li class="nav-item" data-bs-level="2"><a href="#6-loops-and-iterations" class="nav-link">6 Loops and Iterations</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#8-expressions-and-operators" class="nav-link">8 Expressions and Operators</a>
+            <li class="nav-item" data-bs-level="2"><a href="#7-control-flow" class="nav-link">7 Control Flow</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#9-functions" class="nav-link">9 Functions</a>
+            <li class="nav-item" data-bs-level="2"><a href="#8-expressions-and-operators" class="nav-link">8 Expressions and Operators</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#10-strict-mode" class="nav-link">10 Strict Mode</a>
+            <li class="nav-item" data-bs-level="2"><a href="#9-functions" class="nav-link">9 Functions</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#11-this-keyword-advanced" class="nav-link">11 This Keyword (Advanced)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#10-strict-mode" class="nav-link">10 Strict Mode</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#12-asynchronous-javascript-advanced" class="nav-link">12 Asynchronous JavaScript (Advanced)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#11-this-keyword-advanced" class="nav-link">11 This Keyword (Advanced)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#13-working-with-apis" class="nav-link">13 Working with APIs</a>
+            <li class="nav-item" data-bs-level="2"><a href="#12-asynchronous-javascript-advanced" class="nav-link">12 Asynchronous JavaScript (Advanced)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#14-classes-oop" class="nav-link">14 Classes - OOP</a>
+            <li class="nav-item" data-bs-level="2"><a href="#13-working-with-apis" class="nav-link">13 Working with APIs</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#15-javascript-iterators-and-generators-advance" class="nav-link">15 Javascript Iterators and Generators (Advance)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#14-classes-oop" class="nav-link">14 Classes - OOP</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#16-modules" class="nav-link">16 Modules</a>
+            <li class="nav-item" data-bs-level="2"><a href="#15-javascript-iterators-and-generators-advance" class="nav-link">15 Javascript Iterators and Generators (Advance)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#17-memory-management-advance" class="nav-link">17 Memory Management (Advance)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#16-modules" class="nav-link">16 Modules</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#17-memory-management-advance" class="nav-link">17 Memory Management (Advance)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#keyword-tai-lieu" class="nav-link">Keyword, Tài liệu</a>
+            <li class="nav-item" data-bs-level="1"><a href="#keyword-tai-lieu" class="nav-link">Keyword, Tài liệu</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -333,8 +363,7 @@ Garbage Collection</br ></p>
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../../js/jquery-3.6.0.min.js"></script>
-        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
@@ -347,7 +376,7 @@ Garbage Collection</br ></p>
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -367,7 +396,7 @@ Garbage Collection</br ></p>
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">

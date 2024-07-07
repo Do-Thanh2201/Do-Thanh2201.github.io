@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Đỗ Thành">
-        <link rel="canonical" href="https://do-thanh2201.github.io/frontend/CSS/3%20boxModel/">
+        <link rel="canonical" href="https://do-thanh2201.github.io/frontend/React/2%20React/">
         <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>Box Model - Homepage</title>
+        <title>React - Homepage</title>
         <link href="../../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../../css/brands.min.css" rel="stylesheet">
@@ -72,35 +72,35 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../1%20selectors/" class="dropdown-item">Selectors</a>
+    <a href="../../CSS/1%20selectors/" class="dropdown-item">Selectors</a>
 </li>
             
 <li>
-    <a href="../2%20Cascading%20and%20Inheritance/" class="dropdown-item">Cascading and Inheritance</a>
+    <a href="../../CSS/2%20Cascading%20and%20Inheritance/" class="dropdown-item">Cascading and Inheritance</a>
 </li>
             
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">Box Model</a>
+    <a href="../../CSS/3%20boxModel/" class="dropdown-item">Box Model</a>
 </li>
             
 <li>
-    <a href="../4%20boxPosition/" class="dropdown-item">Box Position</a>
+    <a href="../../CSS/4%20boxPosition/" class="dropdown-item">Box Position</a>
 </li>
             
 <li>
-    <a href="../5%20flow/" class="dropdown-item">FLow</a>
+    <a href="../../CSS/5%20flow/" class="dropdown-item">FLow</a>
 </li>
             
 <li>
-    <a href="../6%20flexbox/" class="dropdown-item">Flexbox</a>
+    <a href="../../CSS/6%20flexbox/" class="dropdown-item">Flexbox</a>
 </li>
             
 <li>
-    <a href="../7%20grid/" class="dropdown-item">Grid</a>
+    <a href="../../CSS/7%20grid/" class="dropdown-item">Grid</a>
 </li>
             
 <li>
-    <a href="../others/" class="dropdown-item">Others</a>
+    <a href="../../CSS/others/" class="dropdown-item">Others</a>
 </li>
     </ul>
   </li>
@@ -132,19 +132,19 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../React/1%20Summary%20JavaScript/" class="dropdown-item">Ôn tập JavaScript</a>
+    <a href="../1%20Summary%20JavaScript/" class="dropdown-item">Ôn tập JavaScript</a>
 </li>
             
 <li>
-    <a href="../../React/2%20React/" class="dropdown-item">React</a>
+    <a href="./" class="dropdown-item active" aria-current="page">React</a>
 </li>
             
 <li>
-    <a href="../../React/3%20React%20router/" class="dropdown-item">React-router</a>
+    <a href="../3%20React%20router/" class="dropdown-item">React-router</a>
 </li>
             
 <li>
-    <a href="../../React/4%20Context%20API/" class="dropdown-item">Context API</a>
+    <a href="../4%20Context%20API/" class="dropdown-item">Context API</a>
 </li>
     </ul>
   </li>
@@ -159,12 +159,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../2%20Cascading%20and%20Inheritance/" class="nav-link">
+                                <a rel="prev" href="../1%20Summary%20JavaScript/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../4%20boxPosition/" class="nav-link">
+                                <a rel="next" href="../3%20React%20router/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -186,17 +186,84 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#1-box-model" class="nav-link">1 Box model</a>
+            <li class="nav-item" data-bs-level="1"><a href="#1-cac-kien-thuc-key-word-su-dung" class="nav-link">1. Các kiến thức / key word sử dụng</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#hook" class="nav-link">Hook</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#2-box-sizing" class="nav-link">2 Box sizing</a>
+            <li class="nav-item" data-bs-level="2"><a href="#state-va-props-chilrent-props" class="nav-link">State và Props; chilrent props</a>
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#one-way-data-flows" class="nav-link">One way data flows</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#prop-drilling" class="nav-link">Prop Drilling</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#side-effect-react" class="nav-link">Side effect react</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#fragment-strictmode" class="nav-link">Fragment, StrictMode</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#usestate" class="nav-link">useState</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#useeffect" class="nav-link">useEffect</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#useref" class="nav-link">useRef()</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#usereducer" class="nav-link">useReducer()</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#lifting-state-up" class="nav-link">Lifting state up</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#custom-hook" class="nav-link">Custom hook</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#react-router" class="nav-link">React-router</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#context-api" class="nav-link">Context API</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ui-state" class="nav-link">UI state</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#remote-state" class="nav-link">Remote state</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#cac-vi-tri-su-dung-state" class="nav-link">Các vị trí sử dụng state:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#cac-loai-state" class="nav-link">Các loại state:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#3-keyword-tai-lieu-tham-khao" class="nav-link">3 Keyword, Tài liệu tham khảo</a>
+            <li class="nav-item" data-bs-level="1"><a href="#2-mot-so-thu-vienj-hay" class="nav-link">2. Một số thư viênj hay</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -205,22 +272,68 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="1-box-model">1 Box model</h1>
-<p>Box model là 1 kỹ thuật layout cơ bản trong CSS với 4 thành phần:</br >
- - Margin: Khoảng cách tính từ bên ngoài của phần tử. Đại diện bởi thuộc tính <strong>margin</strong></br >
- - Border: Đường viền của phần tử. Đại diện bởi thuộc tính <strong>border</strong></br >
- - Padding: Khoảng cách tính từ bên trong của phần tử. Đại diện bởi thuộc tính <strong>padding</strong></br >
- - Content: Nội dung trong phần tử. Do đó, không có thuộc tính CSS nào đại diện</br >
- <img alt="Box Model" src="https://media.geeksforgeeks.org/wp-content/uploads/box-model-1.png" /></p>
-<h1 id="2-box-sizing">2 Box sizing</h1>
-<p><strong>box-sizing</strong> là một thuộc tính sẽ giúp bạn có thể tính toán và làm chủ được kích thước của một phần tử dựa vào thuộc tính <strong>width</strong> và <strong>height</strong> đã được thiết lập bên trong. Hay nói cách khác, là bạn sẽ muốn thuộc tính <strong>width</strong> và <strong>height</strong> là kích thước đã bao gồm border và padding.</br ></p>
-<p>Hiện tại, <strong>box-sizing</strong> có hỗ trợ một số giá trị như sau:</br >
- - <strong>content-box</strong>: Giá trị mặc định, nghĩa là giá trị width và height chỉ áp dụng cho khu vực nội dung bên trong, không bao gồm padding, border và margin.</br >
- - <strong>border-box</strong>: Khi thiết lập giá trị này, thì width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin.</br >
- (Nên sử dụng thuộc tính này cho toàn bộ các phần tử giúp cho các phần tử có kích thước như chúng ta đã khai báo)</br >
- - <strong>padding-box</strong>: Với giá trị này thì width và height chỉ bao gồm cho phần nội dung và padding, không bao gồm border và margin.</br >
- (<strong>padding-box</strong> chỉ có tác dụng với trình duyệt <strong>Firefox</strong>.)</p>
-<h1 id="3-keyword-tai-lieu-tham-khao">3 Keyword, Tài liệu tham khảo</h1></div>
+<h1 id="1-cac-kien-thuc-key-word-su-dung">1. Các kiến thức / key word sử dụng</h1>
+<h2 id="hook">Hook</h2>
+<p>Cho phép bạn sử dụng state và các chức năng khác của React mà không cần tạo class. -&gt; Giúp người dùng có thể sử dụng function component thay cho class component</p>
+<h2 id="state-va-props-chilrent-props">State và Props; chilrent props</h2>
+<h2 id="one-way-data-flows">One way data flows</h2>
+<p>Data chỉ truyền theo 1 đường từ component cha -&gt; con</p>
+<h2 id="prop-drilling">Prop Drilling</h2>
+<p>Truyền prop qua nhiều components cha -&gt; con dù cho chỉ sử dụng ở component con mà không sử dụng ở component cha</p>
+<h2 id="side-effect-react">Side effect react</h2>
+<p>Các hoạt động / hành vi diễn ra sau khi component render</p>
+<h2 id="fragment-strictmode">Fragment, StrictMode</h2>
+<h2 id="usestate">useState</h2>
+<p>Quản lý state -&gt; Re-render component khi state thay đổi</p>
+<h2 id="useeffect">useEffect</h2>
+<p>Thực hiện side effect -&gt; Thực hiện sau khi component re-render. -&gt; Thường dùng để kết nối với hệ thống bên ngoài như call API,...</br ></p>
+<p>Nguyên lý hoạt động:</p>
+<ul>
+<li>Chạy setup code khi khởi tạo component</li>
+<li>Khi một trong các dependencies thay đổi -&gt; Sau khi component re-render, chạy cleanup code với old props and state sau đó chạy setup code với new props and state.</li>
+<li>Chạy cleanup code chạy 1 lần cuối cùng sau khi component được removed</li>
+</ul>
+<h2 id="useref">useRef()</h2>
+<p>Refer đến 1 giá trị không cần re-render -&gt; Thường dùng để refer đến 1 DOM</p>
+<h2 id="usereducer">useReducer()</h2>
+<p>Dùng khi 1 số state có cùng logic hoặc dùng khi cần update 1 vài state đồng thời: [state, dispatch] = useReducer(reducer, initialArg, init?)</p>
+<ul>
+<li>initialArg: Giá trị khởi tạo state</li>
+<li>init: function khởi tạo giá trị cho state</li>
+<li>reducer (currentState, action): function update state
+  -&gt; Khi gọi dispatch(), reducer nhận giá trị action = param truyền vào dispatch(), sau đó thực hiện logic bên trong reducer()</li>
+</ul>
+<h2 id="lifting-state-up">Lifting state up</h2>
+<p>Nếu 2 hoặc nhiều component cùng cấp muốn truy cập vào data của component còn lại, ta cần:</p>
+<ul>
+<li>Đưa state đó từ component con lên component cha.</li>
+<li>Sau đó truyền đến các component con cần dùng đến data đó.</li>
+</ul>
+<h2 id="custom-hook">Custom hook</h2>
+<h2 id="react-router">React-router</h2>
+<p>Tham khảo chi tiết tại: <a href="" title="3 React router.md">Context Hooks</a></p>
+<h2 id="context-api">Context API</h2>
+<h2 id="ui-state">UI state</h2>
+<p>Các state lưu thông tin của người dùng thao tác như form input, hiển thị các phần tử, giao diện dựa vào hoạt động của người dùng.</p>
+<h2 id="remote-state">Remote state</h2>
+<p>Các state lưu data dựa vào fetch() từ server hoặc database.</p>
+<h2 id="cac-vi-tri-su-dung-state">Các vị trí sử dụng state:</h2>
+<ul>
+<li>Local component: useState(), useReducer(), useRef() -&gt; Local state</li>
+<li>Parent component: useState(), useReducer(), useRef() -&gt; Dùng để truyền data xuống các component con cần nó (Lifting state up)</li>
+<li>Context: Context API + useState() / useReducer() -&gt; Global state (Khuyến cáo dùng cho UI state)</li>
+<li>Thư viện của bên thứ 3: Redux, React query, SWR, Zustand, ... -&gt; Global state (Khuyến cáo dùng cho remote state)</li>
+<li>URL: React router -&gt; Global state, truyền data giữa các page</li>
+</ul>
+<h2 id="cac-loai-state">Các loại state:</h2>
+<ul>
+<li>UI state: Local (useState(), useReducer(), useRef() ); Global state (Context API + useState() / useReducer(); React router; Redux, Zustand, Recoil ....)</li>
+<li>Remote state: Local (fetch + useEffect + useState/useReducer ) ; Global state (Khuyên dùng các tool đặc biệt để xử lý: React query, SWR, RTK query)</li>
+</ul>
+<h1 id="2-mot-so-thu-vienj-hay">2. Một số thư viênj hay</h1>
+<ul>
+<li><a href="https://react-leaflet.js.org/docs/start-introduction/">React Leaflet</a>: Thư viện dùng cho map tương tự như google map</li>
+</ul></div>
             </div>
         </div>
 

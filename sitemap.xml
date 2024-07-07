@@ -2,72 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://do-thanh2201.github.io/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/backend/Java/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/backend/Springboot%20and%20MicroServices/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/CSS/1%20selectors/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/CSS/2%20Cascading%20and%20Inheritance/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/CSS/3%20boxModel/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/CSS/4%20boxPosition/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/CSS/5%20flow/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/CSS/6%20flexbox/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/CSS/7%20grid/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/CSS/others/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/JavaScript/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/JavaScript/1%20Variable/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://do-thanh2201.github.io/frontend/JavaScript/2%20Datatypes/</loc>
-         <lastmod>2024-01-10</lastmod>
+         <lastmod>2024-07-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/React/1%20Summary%20JavaScript/</loc>
+         <lastmod>2024-07-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/React/2%20React/</loc>
+         <lastmod>2024-07-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/React/3%20React%20router/</loc>
+         <lastmod>2024-07-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://do-thanh2201.github.io/frontend/React/4%20Context%20API/</loc>
+         <lastmod>2024-07-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
