@@ -74,7 +74,7 @@ Các state lưu data dựa vào fetch() từ server hoặc database.
 
 - Local component: useState(), useReducer(), useRef() -> Local state
 - Parent component: useState(), useReducer(), useRef() -> Dùng để truyền data xuống các component con cần nó (Lifting state up)
-- Context: Context API + useState() / useReducer() -> Global state (Khuyến cáo dùng cho UI state)
+- Context: Context API + useState() / useReducer() -> Global state (Khuyến cáo dùng cho UI state mà ít thay đổi: Color thêm, authenticate user)
 - Thư viện của bên thứ 3: Redux, React query, SWR, Zustand, ... -> Global state (Khuyến cáo dùng cho remote state)
 - URL: React router -> Global state, truyền data giữa các page
 

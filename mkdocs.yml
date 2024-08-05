@@ -34,3 +34,4 @@ nav:
           - "React": "frontend/React/2 React.md"
           - "React-router": "frontend/React/3 React router.md"
           - "Context API": "frontend/React/4 Context API.md"
+          - "Redux": "frontend/React/5 Redux.md"
